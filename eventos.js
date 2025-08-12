@@ -1,5 +1,12 @@
+function Saludar(){
+    alert("Hola!")
+};
+
+
 function soyElDiv(){
-    alert("Hola! Soy el div")
+    if (event.target === div){
+        alert("Hola! Soy el div");
+    }
 };
 
 let div = document.querySelector("div");
